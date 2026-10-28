@@ -1,0 +1,22 @@
+# ── 私钥与凭据（永不提交）──
+# dev 签名私钥：公钥(.pub)可以提交，私钥(.key)绝对不行
+*.key
+.duck-keys/
+
+# SSH 私钥
+id_rsa
+id_rsa_*
+id_ed25519
+id_ed25519_*
+*.pem
+
+# 环境变量 / 令牌文件
+.env
+.env.*
+*.token
+
+# ── 系统与编辑器杂项 ──
+.DS_Store
+Thumbs.db
+*.swp
+*~
